@@ -1,0 +1,42 @@
+@media (max-width: 525px) {
+
+  body {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 75%;
+    position: absolute;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 5px;
+    margin: 0 auto;
+    width: 110%;
+  }
+
+  .imagem__perfil {
+    display: block;
+    align-self: center;
+  }
+
+  .descricao__perfil {
+    text-align: center;
+    align-self: center;
+  }
+
+  .redes__sociais {
+    align-content: center;
+  }
+
+
+  li {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 50vh;
+    height: 10vw;
+  }
+
+}
