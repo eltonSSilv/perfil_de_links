@@ -1,0 +1,18 @@
+@media screen and (max-width: 323px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  main {
+    display: flex;
+    width: 120%;
+  }
+
+  .nome__perfil {
+    font-size: 25px;
+    text-align: center;
+  }
+
+}
