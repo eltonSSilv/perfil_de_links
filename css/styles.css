@@ -9,6 +9,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px;
   padding: 15px;
@@ -32,30 +33,34 @@ main .imagem__principal .foto__principal img {
   padding: 10px 0;
 }
 
+/* CAIXA DE TEXTO "LOARNING" */
 .titulos .titulo__carregamento h2 {
   display: flex;
+  justify-content: center;
   background-color: rgb(244, 208, 78);
   font-family: figtree__ExtraBold;
   font-size: 12px;
   text-align: center;
+  align-items: center;
   width: 15%;
   padding: 10px 20px;
   margin-bottom: 30px;
   border-radius: 10px;
 }
 
+/* CAIXA DE TEXTO "DATA" */
 .titulos .titulo__carregamento p {
   font-family: Figtree__Variable;
   font-size: 12px;
   margin: 20px 0;
 }
 
+/* CAIXA DE TEXTO "TEXTO PRINCIPAL */
 .titulos .titulo__carregamento h1 {
   font-family: Figtree__ExtraBold;
   font-size: 20px;
   margin: 10px 0;
 }
-
 
 .titulos .titulo__carregamento h1:hover {
   color: rgb(244, 208, 78);
@@ -63,11 +68,13 @@ main .imagem__principal .foto__principal img {
   transition: 1s;
 }
 
+/* TEXTO CONTEUDO */
 .conteudo p {
   font-family: Figtree__Variable;
   font-size: 14px;
 }
 
+/* RODAPE */
 .perfil {
   display: flex;
   align-items: center;
