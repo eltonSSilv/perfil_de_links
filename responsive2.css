@@ -1,26 +1,19 @@
-/*
-@media only screen and (min-width: 500px) {
+@media screen and (max-width: 323px) {
   body {
-    background-color: rgb(244, 208, 78);
-    margin: auto;
-    width: 40%;
-    padding: 15px;
+    display: flex;
+    flex-wrap: nowwrap;
+    flex-direction: column;
+    margin-left: 10px;
   }
 
-  .titulos .titulo__carregamento h2 {
-    font-size: 14px;
+  main {
+    display: flex;
+    width: 120%;
   }
 
-  .titulos .titulo__carregamento p {
-    font-size: 14px;
+  .nome__perfil {
+    font-size: 25px;
+    text-align: center;
   }
 
-  .titulos .titulo__carregamento h1 {
-    font-size: 22px;
-  }
-
-  .conteudo .texto__conteudo {
-    font-size: 16px;
-  }
 }
-*/
