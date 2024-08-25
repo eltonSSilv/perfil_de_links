@@ -56,6 +56,13 @@ main .imagem__principal .foto__principal img {
   margin: 10px 0;
 }
 
+
+.titulos .titulo__carregamento h1:hover {
+  color: rgb(244, 208, 78);
+  cursor: pointer;
+  transition: 1s;
+}
+
 .conteudo p {
   font-family: Figtree__Variable;
   font-size: 14px;
