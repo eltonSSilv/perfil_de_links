@@ -1,80 +1,78 @@
 body {
-  background-color: hsl(0, 0%, 8%);
-  color: white;
-  padding: 20px;
-  margin: 20px;
+  background-color: rgb(244, 208, 78);
+  font-family: Figtree__SemiBold;
+  margin: 0 auto;
+  padding: 0;
 }
 
+/* CAIXA DO CONTEUDO */
 main {
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 0%, 12%);
-  align-items: center;
-  width: 80vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px;
+  padding: 15px;
+  margin: 20px;
   border-radius: 20px;
-  padding: 20px;
-  margin: 0 auto;
-  letter-spacing: 1px;
-}
-
-.imagem {
-  border: 20px solid hsl(0, 0%, 12%);
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
-.descricao__perfil {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 20px;
-  gap: 15px;
-}
-
-.nome__perfil {
-  font-size: 30px;
-  font-family: Inter__Bold;
-}
-
-.cidade__perfil {
-  color: hsl(75, 94%, 57%);
-  font-size: 18px;
-  font-family: Inter__Regular;
-}
-
-.profissao__perfil {
-  font-size: 14px;
-  padding: 30px 0 0 0;
-  font-family: Inter__Variable;
-}
-
-.redes__sociais {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 0 auto;
-  padding: 20px;
   gap: 20px;
 }
 
-li {
-  background-color: hsl(0, 0%, 20%);
-  border-radius: 15px;
-  width: 65vh;
-  height: 50px;
-  text-align: center;
-  font-size: 20px;
-  position: relative;
-  padding-top: 20px;
-  font-family: Inter__SemiBold;
+/* IMAGEM PRINCIPAL */
+main .imagem__principal .foto__principal img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
-li:hover {
-  background-color: hsl(75, 94%, 57%);
-  cursor: pointer;
-  transition: 1s;
-  color: black;
+/* TEXTOS */
+.titulos {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.titulos .titulo__carregamento h2 {
+  display: flex;
+  background-color: rgb(244, 208, 78);
+  font-family: figtree__ExtraBold;
+  font-size: 12px;
+  text-align: center;
+  width: 15%;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.titulos .titulo__carregamento p {
+  font-family: Figtree__Variable;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.titulos .titulo__carregamento h1 {
+  font-family: Figtree__ExtraBold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.conteudo p {
+  font-family: Figtree__Variable;
+  font-size: 14px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.perfil .imagem__perfil img {
+  width: 32px;
+  height: 32px;
+}
+
+.perfil .nome .nome__perfil {
+  font-family: Figtree__ExtraBold;
+  font-size: 14px;
 }
