@@ -1,50 +1,25 @@
-@media (max-width: 525px) {
 
+@media only screen and (min-width: 500px) {
   body {
-    display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 75%;
-    position: absolute;
+    background-color: rgb(244, 208, 78);
+    margin: auto;
+    width: 40%;
+    padding: 15px;
   }
 
-  main {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    padding: 5px;
-    margin: 0 auto;
-    width: 110%;
+  .titulos .titulo__carregamento h2 {
+    font-size: 14px;
   }
 
-  .imagem__perfil {
-    display: block;
-    align-self: center;
+  .titulos .titulo__carregamento p {
+    font-size: 14px;
   }
 
-  .descricao__perfil {
-    text-align: center;
-    align-self: center;
+  .titulos .titulo__carregamento h1 {
+    font-size: 22px;
   }
 
-  .redes__sociais {
-    align-content: center;
+  .conteudo .texto__conteudo {
+    font-size: 16px;
   }
-
-
-  li {
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    width: 50vh;
-    height: 10vw;
-  }
-
-  @media (min-width: 180px) {
-
-  body {
-    background-color: antiquewhite;
-  }
-
-}
-
 }
