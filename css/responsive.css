@@ -1,25 +1,43 @@
-
-@media only screen and (min-width: 500px) {
-  body {
-    background-color: rgb(244, 208, 78);
-    margin: auto;
-    width: 40%;
-    padding: 15px;
+@media screen and (min-width: 555px) {
+  main {
+    width: 50%;
   }
 
-  .titulos .titulo__carregamento h2 {
-    font-size: 14px;
+  /* IMAGEM PERFIL */
+  .imagem__perfil .imagem {
+    width: 12em;
+    padding-top: 40px;
   }
 
-  .titulos .titulo__carregamento p {
-    font-size: 14px;
+  /* TEXTOS PRINCIPAIS */
+  .descricao__perfil .nome__perfil {
+    font-size: 35px;
+    padding-top: 20px;
   }
 
-  .titulos .titulo__carregamento h1 {
-    font-size: 22px;
+  .descricao__perfil .cidade__perfil {
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 
-  .conteudo .texto__conteudo {
-    font-size: 16px;
+  .descricao__perfil .profissao__perfil {
+    font-size: 20px;
+    padding-top: 20px;
   }
+
+  /* LINKS */
+  .redes__sociais li {
+    display: flex;
+    padding: 30px;
+    width: 90%;
+    align-self: flex-end;
+  }
+
+  .redes__sociais li:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    transition: 1s;
+  }
+
+
 }
