@@ -1,6 +1,6 @@
 @media screen and (min-width: 555px) {
   body {
-    background-color: black;
+    background-color: hsl(0, 0%, 12%);
   }
   main {
     width: 50%;
